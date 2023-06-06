@@ -3,3 +3,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* https://tailwindcss.com/docs/functions-and-directives#apply */
+.btn {
+    @apply font-bold py-2 px-4 rounded-xl;
+}
+
+.btn-primary {
+    @apply bg-blue-500 text-white;
+}
+
+.btn-primary:hover {
+    @apply bg-blue-900;
+}
